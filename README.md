@@ -19,7 +19,7 @@
 
 ## Recommendation before use
 
-# 🔥🔥 PYTHON version must be 3.10 🔥🔥
+# 🔥🔥 PYTHON version must be 3.12🔥🔥
 
 
 ## Features  
@@ -104,14 +104,14 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 cp .env-example .env
 nano .env  # Here you must specify your API_ID and API_HASH, the rest is taken by default
-python3.10 main.py
+python main.py
 ```
 
 You can also use arguments for quick start, for example:
 ```shell
-~/notpixel5 >>> python3.10 main.py --action (1/2)
+~/notpixel5 >>> python main.py --action (1/2)
 # Or
-~/notpixel5 >>> python3.10 main.py -a (1/2)
+~/notpixel5 >>> python main.py -a (1/2)
 
 # 1 - Start drawing 🎨️
 # 2 - Creates a session 👨‍🎨
